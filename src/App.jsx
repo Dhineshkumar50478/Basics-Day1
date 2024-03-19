@@ -4,23 +4,22 @@ function App() {
 
   return (
     <>
-       <h1>Basics</h1>
-      <h1>Full stack</h1>
-      <h2>Full stack</h2>
-      <h3>Full stack</h3>
-      <h4>Full stack</h4>
-      <h5>Full stack</h5>
-      <h6>Full stack</h6>
-      <p>Full stack<span>Basics</span></p>
-      <p>Dhinesh<bold>kumar</bold></p>
-      <a href="#">https://www.google.com</a>
+       <h1 className='title'>Basics</h1>
+      <h1>H1 tag</h1>
+      <h2>H2 tag</h2>
+      <h3>H3 tag</h3>
+      <h4>H4 tag</h4>
+      <h5>H5 tag</h5>
+      <h6>H6 tag</h6>
+      <p>P tag<span> <bold>Span and Bold tag</bold></span></p>
+      <a href="#"><span>Anker Tag</span>https://www.google.com</a>
       <div>
         <div>block1</div>
         <div>block2</div>
         <div>block3</div>
         <div>block3</div>
       </div>
-      <h2>Form</h2>
+      <h2 className='title'>Form</h2>
       <form action="#">
         <label htmlFor="name"></label><br />
         <input type="text" name='name' placeholder='Enter your name'/><br />
@@ -38,7 +37,7 @@ function App() {
         <label htmlFor="">Cooment</label><br />
         <input type="text-area" placeholder='Write Something'/><br />
       </form>
-      <h2>Table</h2>
+      <h2 className='title'>Table</h2>
       <table border="2px">
         <thead>
           <tr>
@@ -60,7 +59,7 @@ function App() {
           </tr>
         </tbody>
       </table>
-      <h2>Unordered List</h2>
+      <h2 className='title'>Unordered List</h2>
       <ul>
         <li>Dhinesh</li>
         <li>Vijay</li>
@@ -69,7 +68,7 @@ function App() {
         <li>Santhosh</li>
       </ul>
       <h2>Ordered List</h2>
-      <ol>
+      <ol className='title'>
         <li>Lokesh</li>
         <li>Athish</li>
         <li>Vignesh</li>
