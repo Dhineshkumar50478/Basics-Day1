@@ -20,6 +20,7 @@ function App() {
         <div>block3</div>
         <div>block3</div>
       </div>
+      <h2>Form</h2>
       <form action="#">
         <label htmlFor="name"></label><br />
         <input type="text" name='name' placeholder='Enter your name'/><br />
@@ -37,6 +38,7 @@ function App() {
         <label htmlFor="">Cooment</label><br />
         <input type="text-area" placeholder='Write Something'/><br />
       </form>
+      <h2>Table</h2>
       <table border="2px">
         <thead>
           <tr>
@@ -58,6 +60,7 @@ function App() {
           </tr>
         </tbody>
       </table>
+      <h2>Unordered List</h2>
       <ul>
         <li>Dhinesh</li>
         <li>Vijay</li>
@@ -65,6 +68,7 @@ function App() {
         <li>Krishnana</li>
         <li>Santhosh</li>
       </ul>
+      <h2>Ordered List</h2>
       <ol>
         <li>Lokesh</li>
         <li>Athish</li>
